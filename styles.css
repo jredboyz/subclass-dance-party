@@ -9,7 +9,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineupDancers{
   padding:5px 12px;
   float:right;
 }
@@ -20,8 +20,24 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
+
+.dancefloor{
+  height:100%;
+  background-color: rgb(255, 0, 247);
+  background-image: url("Jo\ Ro\ Dance\ Floor.jpeg");
+}
 .dancer{
-  border:10px solid red;
+  position: absolute;
+}
+.squaredancer{
+  border:10px solid rgb(93, 0, 255);
   border-radius:10px;
   position:absolute;
+}
+.roshan{
+  border:2px solid rgb(0, 255, 42);
+  border-radius:2px;
+}
+.joseph{
+
 }
